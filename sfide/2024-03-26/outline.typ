@@ -16,3 +16,5 @@ Una volta registrati a tale piattaforma il problema si chiama "discesa" ed è pi
 https://training.olinfo.it/#/task/discesa/statement
 ```
 
+Suggerisco di sottomettere su questo stesso portale anche la vostra soluzione del problema `accensione dei PC` poichè è un problema originalmente proposto ad una fase nazionale delle Oii (Fisciano, 18 – 20 settembre 2014) e pensato per una valutazione col CMS piuttosto che non per TALight (col CMS il vostro codice gira in una sandbox sul server piuttosto che non sulla vostra macchina e così diventa possibile imporre e controllare anche dei limiti sull'impiego di memoria).
+

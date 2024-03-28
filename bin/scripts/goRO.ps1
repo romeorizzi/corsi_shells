@@ -3,7 +3,7 @@ Start-Process "chrome.exe" -ArgumentList "--new-window","https://univr.zoom.us/j
 Start-Process "chrome.exe" -ArgumentList "https://rizzi.olinfo.it/ro"
 Start-Process "chrome.exe" -ArgumentList "https://wbo.ophir.dev/boards/LavagnaRO"
 Start-Process "chrome.exe" -ArgumentList "https://etherpad.wikimedia.org/p/RicercaOperativa"
-Start-Process "chrome.exe" -ArgumentList "https://etherpad.wikimedia.org/p/RicercaOperativa$((Get-Date).ToString('yyyyMMdd'))"
+Start-Process "chrome.exe" -ArgumentList "https://etherpad.wikimedia.org/p/RicercaOperativa$((Get-Date).ToString('yyyy-MM-dd'))"
 Start-Process "chrome.exe" -ArgumentList "https://repl.it/@RomeoRizziUniVR/ro"
 
 # Display URLs

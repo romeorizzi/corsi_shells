@@ -2,10 +2,10 @@
 Start-Process "chrome.exe" -ArgumentList "--new-window","https://univr.zoom.us/j/89889727405"
 Start-Process "chrome.exe" -ArgumentList "https://wbo.ophir.dev/boards/LavagnaDODO"
 Start-Process "chrome.exe" -ArgumentList "https://etherpad.wikimedia.org/p/DiscreteOptimization"
-Start-Process "chrome.exe" -ArgumentList "https://etherpad.wikimedia.org/p/DiscreteOptimization$((Get-Date).ToString('yyyyMMdd'))"
+Start-Process "chrome.exe" -ArgumentList "https://etherpad.wikimedia.org/p/DiscreteOptimization$((Get-Date).ToString('yyyy-MM-dd'))"
 
 # Display URLs
 Write-Host "Zoom Room DODO URL: https://univr.zoom.us/j/89889727405"
 Write-Host "Collaborative WhiteBoard(easy) DODO URL: https://wbo.ophir.dev/boards/LavagnaDODO"
-Write-Host "Collaborative etherpad DiscreteOptimization URL: https://etherpad.wikimedia.org/p/DiscreteOptimization$((Get-Date).ToString('yyyyMMdd'))"
+Write-Host "Collaborative etherpad DiscreteOptimization URL: https://etherpad.wikimedia.org/p/DiscreteOptimization$((Get-Date).ToString('yyyy-MM-dd'))"
 Write-Host "Etherpad DODO index URL: https://etherpad.wikimedia.org/p/DiscreteOptimization"

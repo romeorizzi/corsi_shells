@@ -1,4 +1,4 @@
-= 2024-03-05: ancobuone caratterizzazioni (problema pirellone)
+= 2024-03-05: ancora buone caratterizzazioni (problema pirellone)
 #text(style:"italic", size:11pt, [Si comincia a comporre il presente documento contestualmente e collaborativamente all'URL:\
 #h(6mm) `https://etherpad.wikimedia.org/p/DiscreteOptimization2024-03-05`\
 Gli incontri avvengono sia in presenza che nella stanza Zoom:\

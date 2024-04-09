@@ -1,9 +1,10 @@
 == Flotta di aerei kamikaze in viaggio
 
-Dobbiamo attraversare una distanza $D in NN$ con una flotta di $n$ aerei.
-La distanza si considera attraversata se anche uno solo degli $n$ aerei riesce a percorrerla. Ciascuno degli aerei ha un serbatorio che gli consente di trasportare 1 unità di carburante, quanto gli basta per attraversare una singola unità della distanza $D$.
+Una flotta di aerei deve decidere quale target colpire.
+In questo momento tutti gli aerei si trovano alla base, tutti col serbatoio pieno e pronti a partire. Gli aerei sono tutti uguali, a serbatoio pieno riescono a percorrere una singola unità di distanza ed il loro consumo è lineare nella distanza percorsa.
+Per colpire un certo target ci basta che anche uno solo degli aerei lo raggiunga.
 
-*Domanda~1:* Quale è la massima distanza attraversabile da una flotta di $n$ aerei?
+*Domanda~1:* Quale è la massima distanza dalla base di un target che possiamo colpire se la nostra flotta dispone di $n$ aerei?
 
 Chiameremo $D(n)$ la risposta a tale domanda, cerchiamo di spiegare perchè sia funzione di $n$ ma lasceremo a tè di meglio comprenderla.
 

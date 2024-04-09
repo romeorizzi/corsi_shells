@@ -1,13 +1,10 @@
-= 2024-04-02: i linguaggi di si e no della Programmazione Lineare (PL)
-#text(style:"italic", size:11pt, [Si comincia a comporre il presente documento contestualmente e collaborativamente all'URL:\
-#h(6mm) `https://etherpad.wikimedia.org/p/DiscreteOptimization2024-04-02`\
-Gli incontri avvengono sia in presenza che nella stanza Zoom:\
+= Incontro 2024-04-02: i linguaggi di si e no della Programmazione Lineare (PL)
+#text(style:"italic", size:11pt, [Gli incontri avvengono sia in presenza che nella stanza Zoom:\
 #h(6mm) `https://univr.zoom.us/j/83514538731`\
 E, quando disponibile, la loro registrazione è nel folder:\
 #h(6mm) `https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=c27d5938-629e-48c0-a238-b12a00b86b38`\
 ])
 
-== Incontro 2024-04-02
 
 ```
 The other time we saw:
@@ -15,10 +12,10 @@ The other time we saw:
 2. what is a linear program in standard form
    max c'x
       Ax <= b
-      
-3. la NO languange, that is, since we are working with an (optimization/search problem), an (upper bound/certificate for it) on the optimal objective function value)
+   and how to bring any LP problem in standard form
+3. a NO languange, that is, since we are working with an (optimization/search problem), an (upper bound/certificate for it) on the optimal objective function value)
 
-For the following example problem:
+In particular, for the following example problem:
     max x1 + x2
     3x1 +2x2 <= 5
     2x1 +3x2 <= 5
@@ -37,7 +34,7 @@ We also saw a way to certificate that 2 was the optimal value.
       1x1 + 1x2 <= 2 
 
 We already observed that Linear Programming is in NP (easy to certify any possible valid lower-bound). 
-good conjecture (any conjecture suche that, it it were true, than it would also be easy to certify any possible valid upper-bound):
+good conjecture (any conjecture such that, it it were true, than it would also be easy to certify any possible valid upper-bound):
     it is enough to combine (with suitable multipliers) the constraints that are tight (=satisfied at equality) in the optimal solution.
     
     what does it mean combine:
@@ -134,7 +131,7 @@ max 4x1 + x2 + 3x3
     Can we obtain a certificate of optimality combining these constraints or can we build a new basic feasible solution with better objective function value?
          
     Yes, since x3 appears with coefficient 3 > 0 in the current objective function expression, then we have good reasons to lift it away from its current value of 0. The more we push it, the more we gain.
-    However, there will be of course a limit: the only problem is that we loose feasibility. The only way we might loose feasibility is beacause a basic variable gets negative. We stop at the first variable becomeing 0. In this way, not only we expolit till the vary end the direction of improvement that we have found, but we also get a new tight contraints (the non-negative contraint of x3 will not be any longer tight) as needeed to express a NO-certificate.
+    However, there will be of course a limit: the only problem is that we loose feasibility. The only way we might loose feasibility is beacause a basic variable gets negative. We stop at the first variable becomeing 0. In this way, not only we expolit till the vary end the direction of improvement that we have found, but we also get a new tight contraints (the non-negative contraint of x3 will not be tight any longer) as needeed to express a NO-certificate.
         
 Now we want to produce the next step rewriting, where the non-basic variable are x1,x2,w2 and w1, x3 are the basic one.
 The procedure for obtaining this rewriting is called pivoting.

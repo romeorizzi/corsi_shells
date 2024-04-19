@@ -19,3 +19,6 @@ A lezione abbiamo proposto 3 problemi di programmazione dinamica:
 1. campo minato
 2. triangolo (si chiama discesa sul CMS delle Oii)
 3. borse di studio
+
+E, insieme, abbiamo affrontato il problema borse dopo che ci avete lavorato autonomamente anche a gruppi.
+

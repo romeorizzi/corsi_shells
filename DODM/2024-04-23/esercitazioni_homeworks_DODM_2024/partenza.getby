@@ -1,0 +1,27 @@
+In questo documento spieghiamo come fruire dei problemi TALight as servizio:
+```
+esercitazioni_homeworks_DODM_2024
+```
+sottomettendo a tale servizio gli studenti ricevono punti validi ai fini della composizione del voto finale per il corso.
+La stessa piattaforma viene inoltre utilizzata per la proposta e consegna del progetto finale che è richiesto per la conclusione del corso.
+
+# ISTRUZIONI NECESSARIE AGLI STUDENTI
+
+ABBIAMO AVVIATO IL SERVER PER GLI HOMEWORK
+
+Serve il nuovo client rtal
+
+## COME OTTENERE IL NUOVO CLIENT rtal
+
+1. per poter compilare i sorgenti di rtal ti serve il compilatore rust che ottieni qui:
+   https://rustup.rs/
+    (segui semplicemente le istruzioni sulla schermata che ti appare (le istruzioni sono già specifiche alla tua piattaforma)
+   Nota: verso la fine dell'installazione compaiono delle istruzioni per aggiungere cargo al PATH. Conviene farlo per poi poter lanciare il client rtal (ed ogni altro rust crate) da qualsiasi cartella dove si stia lavorando su un problema, come più comodo. 
+2. andare al repo: https://github.com/Guilucand/rtal-algo-client
+3. cliccare il bottone verde ("Code") per clonarsi il repo:
+      per i meno esperti scaricarsi lo zip e decomprimerlo in una cartella a scelta sulla propria macchina.
+4. Portati dentro la cartella clonata o scaricata e decompressa, e lancia il seguente comando per compilare e installare rtal:
+   cargo install --locked --path .
+5. al primo utilizzo del client rtal dovete fare accesso (utilizzando vostre credenziai GIA) utilizzando un nuovo comando di rtal:
+   rtal -s wss://ta.di.univr.it/algo2024 login
+

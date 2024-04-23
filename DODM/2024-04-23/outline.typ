@@ -153,14 +153,14 @@ This will return you an URL which you open at in any browser and do the accredit
 
 == Example of call
 ```bash
-rtal -s wss://ta.di.univr.it/DODM2024 connect conio1 -a source=conio1-sol_gurobi.py -- ~/corsi/Algoritmi/esami-algo-private/esercitazioni/conio1/sol/conio1-sol_gurobi.py
+rtal -s wss://ta.di.univr.it/DODM2024 connect conio1 -f source=conio1-sol_gurobi.py -- ~/corsi/Algoritmi/esami-algo-private/esercitazioni/conio1/sol/conio1-sol_gurobi.py
 ```
 
 *Note 1:* After the `--` goes whatever runs on your local machine.
 For example, if you are on a Windows machine where the files ending in `.py` can not be executable files, then you would resort on writing something like:
 
 ```bash
-rtal -s wss://ta.di.univr.it/DODM2024 connect conio1 -a source=conio1-sol_gurobi.py -- python ~/corsi/Algoritmi/esami-algo-private/esercitazioni/conio1/sol/conio1-sol_gurobi.py
+rtal -s wss://ta.di.univr.it/DODM2024 connect conio1 -f source=conio1-sol_gurobi.py -- python ~/corsi/Algoritmi/esami-algo-private/esercitazioni/conio1/sol/conio1-sol_gurobi.py
 ```
 
 *Note 2:* What your program writes on `stderr` does not disturb the interaction with the server and appears on you terminal. THerefore, `stderr` is a very useful channel for print debugging.

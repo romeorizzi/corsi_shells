@@ -59,7 +59,7 @@ go in any directory of the cloned or downloaded and decompressed repo and launch
    cargo install --locked --path .
 ```
 
-If you have cargo correclty installed (as suggested) then you can now use the `rtal` command wherever you are on your machine.
+If you have cargo correctly installed (as suggested) then you can now use the `rtal` command wherever you are on your machine.
 
 == Step 4: get to know the `rtal` client
 

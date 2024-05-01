@@ -23,5 +23,8 @@ Serve il nuovo client rtal
 4. Portati dentro la cartella clonata o scaricata e decompressa, e lancia il seguente comando per compilare e installare rtal:
    cargo install --locked --path .
 5. al primo utilizzo del client rtal dovete fare accesso (utilizzando vostre credenziai GIA) utilizzando un nuovo comando di rtal:
-   rtal -s wss://ta.di.univr.it/algo2024 login
+   rtal -s wss://ta.di.univr.it/DODM2024 login
 
+2. per visualizzare i tuoi punteggi attuali ed i bonus attivi e loro scadenze:
+
+    rtal -s wss://ta.di.univr.it/DODM2024 connect scoreboard

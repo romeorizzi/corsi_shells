@@ -96,3 +96,10 @@ Consider this problem:
             -choose a row and flip all of its entries (0 becomes 1 and 1 becomes 0)
             -choose a column and flip all of its entries (0 becomes 1 and 1 becomes 0)
 ```
+
+== mazes
+
+The problem of finding the solution to a mate is naturally placed in NP.
+
+But it is also in coNP, and, actually, the language is the same.
+

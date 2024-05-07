@@ -34,6 +34,22 @@ We could also go for an algorithm for the following computational problema:
     INPUT: a matrix M
     OUPUT: either a 2x2 bad submatrix of M or a solution for M 
 
+We proved the good conjectures providing efficient algorithms:
+
+1. hide the first raw and give the rest to the tiny fairy.
+
+2. if the tiny fairy returns a 2x2 bad sub-matrix then we pipe that out.
+
+3. otherwise, if after the manipulations of the tiny fairy that erased the submatrix we passed here the first is also erased, we pipe out the same manipulations
+
+4. otherwise, if after the manipulations of the tiny fairy that erased the submatrix we passed here the first is all 1's, then we erase it by toggling the first row and pipe out the same manipulations of the fairy plus the toggling of the first row
+
+5. otherwise pick one 0-element and one 1-element of the first row and the corresondin (=same columns) elements in the second row and notice they form a 2x2 bas submatrix M. Return M. 
+
+
+== 
+
+
 max f(x)
 with x in X
 

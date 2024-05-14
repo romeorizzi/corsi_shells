@@ -1,4 +1,4 @@
-= Incontro 2024-04-16: i linguaggi di si e no della Programmazione Lineare (PL)
+= Meeting 2024-04-16: i linguaggi di si e no della Programmazione Lineare (PL)
 #text(style:"italic", size:11pt, [Gli incontri avvengono sia in presenza che nella stanza Zoom:\
 #h(6mm) `https://univr.zoom.us/j/83514538731`\
 E, quando disponibile, la loro registrazione è nel folder:\

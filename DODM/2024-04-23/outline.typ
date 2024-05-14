@@ -1,4 +1,4 @@
-= Incontro 2024-04-23: introduction to the TAlight platform we will be using both for the homework and for the main project for the course
+= Meeting 2024-04-23: introduction to the TAlight platform we will be using both for the homework and for the main project for the course
 #text(style:"italic", size:11pt, [Gli incontri avvengono sia in presenza che nella stanza Zoom:\
 #h(6mm) `https://univr.zoom.us/j/83514538731`\
 E, quando disponibile, la loro registrazione è nel folder:\

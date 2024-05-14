@@ -1,4 +1,4 @@
-= Incontro 2024-05-07: a diet problem
+= Meeting 2024-05-07: a diet problem
 #text(style:"italic", size:11pt, [Gli incontri avvengono sia in presenza che nella stanza Zoom:\
 #h(6mm) `https://univr.zoom.us/j/83514538731`\
 E, quando disponibile, la loro registrazione è nel folder:\

@@ -7,7 +7,7 @@ E, quando disponibile, la loro registrazione è nel folder:\
 #h(6mm) `https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=c27d5938-629e-48c0-a238-b12a00b86b38`\
 ])
 
-== Incontro 2024-03-26
+== Meeting 2024-03-26
 ```
 Good Conjecture:
     Every matrix is solvable unless it contains one of the 8 forbidden 2x2 matrices (those with an odd number of 1's).

@@ -37,4 +37,4 @@ Definition: a matrix is ​​said to be totally unimodular if each of its squar
 
 We have observed how totally unimodular matrices lead to integer polytopes/polyhedra.
 
-We have shown that node-edge adjacency matrices of bipartite graphs are fully unimodular.
+We have shown that node-edge adjacency matrices of bipartite graphs are totally unimodular.

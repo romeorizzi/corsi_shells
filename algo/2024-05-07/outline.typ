@@ -5,7 +5,7 @@ E, quando disponibile, la loro registrazione è nel folder:\
 #h(6mm) `https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=c4df8587-8f34-4732-8e51-b12d0108ea08`\
 ])
 
-== oggi approfondimenti di Programmazione Dinamica
+== approfondimenti di Programmazione Dinamica
 
 Problema arcobaleno/collage (PD su linea, quando i prefissi/suffissi non bastano)
 

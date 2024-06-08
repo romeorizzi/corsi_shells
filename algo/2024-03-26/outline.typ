@@ -7,8 +7,6 @@ E, quando disponibile, la loro registrazione è nel folder:\
 #h(6mm) `https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=c4df8587-8f34-4732-8e51-b12d0108ea08`\
 ])
 
-== Incontro 2024-03-26
-
 Dopo che gli studenti ci avevano lavorato anche per conto loro, siamo tornati  sul problema accensione introdotto la volta scorsa (2024-03-19).
 
 Gli studenti avevano già prodotto una soluzione ricorsiva che però era quadratica e pertanto non riusciva a risolvere tutti i subtask nemmeno implementata in c++ (non è una questione di costante moltiplicativa ma di complessità asintotica).

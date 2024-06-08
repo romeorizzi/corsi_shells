@@ -1,4 +1,4 @@
-= Incontro 2024-04-24: programmazione dinamica (poldo)
+= Incontro 2024-04-30: programmazione dinamica (poldo)
 #text(style:"italic", size:11pt, [Gli incontri avvengono sia in presenza che nella stanza Zoom:\
 #h(6mm) `https://univr.zoom.us/j/85817283103`\
 E, quando disponibile, la loro registrazione è nel folder:\

@@ -7,7 +7,7 @@ E, quando disponibile, la loro registrazione è nel folder:\
 
 == recap su problemi già precedentemente assegnati
 
-Siamo tornati, su richiesta, al problema .
+Siamo tornati, su richiesta, al problema `prima_DP_su_linea`.
 
 Abbiamo fatto una lunga chiacchierata alla lavagna per poi scrivere insieme un codice di poche righe in pochi minuti.
 Questo è come dovrebbe essere anche più in generale: prima ci si chiarisce le idee e poi si scrive il codice nel modo più indolore possibile.

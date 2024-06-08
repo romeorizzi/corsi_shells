@@ -5,14 +5,13 @@ E, quando disponibile, la loro registrazione è nel folder:\
 #h(6mm) `https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=c4df8587-8f34-4732-8e51-b12d0108ea08`\
 ])
 
-== oggi
-
 Oggi abbiamo annumciato che il sistema TALight based per gli homeworks è pronto ed attende vostre sottomissioni su 3 problemi.
+```
 > rtal -s wss://ta.di.univr.it/algo2024 list
 - BFS
 - conio1
 - prev_and_next
-
+```
 buon lavoro.
 
 A lezione abbiamo proposto 3 problemi di programmazione dinamica:

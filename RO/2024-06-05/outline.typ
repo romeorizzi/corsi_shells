@@ -15,5 +15,5 @@ Poi siamo passati a descrivere alcune riduzioni presenti nel papero di Richard K
 
 ```
 SAT --> 3-SAT
-3-SAT --> VertexCover
+3-SAT --> VertexCover (solo iniziato)
 ```

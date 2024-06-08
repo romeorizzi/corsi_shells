@@ -11,10 +11,9 @@ E, quando disponibile, la loro registrazione è nel folder:\
 
 Abbiamo proseguito con l'introduzione all'impieglo dell'arte del ridurre un problema ad un altro anche come strumento per mettere in evidenza che un problema sia difficile (non solo per risolvere problemi).
 
-```
-3-SAT --> 3DM
-3-SAT --> VertexCover
-```
+
++ 3-SAT --> 3DM
++ 3-SAT --> VertexCover
 
 Abbiamo cercato di trasmettere la metodologia, in particolare ampliato sul ruolo delle buone congetture anche quando le cose dovessero prendere una brutta piega.
 

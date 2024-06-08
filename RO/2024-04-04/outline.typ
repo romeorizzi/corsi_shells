@@ -7,7 +7,6 @@ E, quando disponibile, la loro registrazione è nel folder:\
 #h(6mm) `https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=58ba7ced-73bd-4fd0-b01f-b12d0106957d`\
 ])
 
-== Incontro 2024-04-04
 
 Con riferimento ad un problema di PL in forma standard, la volta scorsa abbiamo osservato come il naturale linguaggio certificante dei lower-bounds (si, mangia l'avocado) fosse compatto (abbiamo disturbato la regola di Kramer) ma abbiamo anche intuito quale potesse essere il linguaggio certificante degli upper-bounds (no, non mangiare la mela):
   a placcarmi nel vertice ottimo saranno quei soli vincoli su cui poggio (vincoli tight, soddisfatti ad uguaglianza) dove riesco a creare l'antigravità (ossia l'opposto del gradiente della funzione obiettivo) come combinazione conica delle reazioni vincolari dei vincoli attivi (gli opposti dei loro gradienti). Ossia dove i gradiente delle funzione obiettivo è nel cono dei gradienti dei vincoli attivi. Combinando i vincoli attivi proprio attraverso i moltiplicatori di tale combinazione conica ottengo un pavimento virtuale perfettamente orizzontale.

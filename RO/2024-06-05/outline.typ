@@ -13,7 +13,7 @@ Abbiamo motivato informalmente perchè SAT è NP-completo, descrivendo la strutt
 
 Poi siamo passati a descrivere alcune riduzioni presenti nel papero di Richard Karp del 1972:
 
-```
-SAT --> 3-SAT
-3-SAT --> VertexCover (solo iniziato)
-```
+
++ SAT --> 3-SAT
++ 3-SAT --> VertexCover (solo iniziato)
+

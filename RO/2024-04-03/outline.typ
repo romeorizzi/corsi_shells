@@ -7,7 +7,6 @@ E, quando disponibile, la loro registrazione è nel folder:\
 #h(6mm) `https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=58ba7ced-73bd-4fd0-b01f-b12d0106957d`\
 ])
 
-== Incontro 2024-04-03
 
 + linguaggio di si per il problema=modello di Gauss (una soluzione)
 

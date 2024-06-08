@@ -6,19 +6,14 @@ E, quando disponibile, la loro registrazione è nel folder:\
 #h(6mm) `https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=58ba7ced-73bd-4fd0-b01f-b12d0106957d`\
 ])
 
-== Incontro 2024-03-13
-
-```
 Problemi spesi:
-1. solitario di napoleone prefix sort
-2. piastrellature a 3-mini della scacchiera 2^k x 2^k
-3. pirellone
+ + solitario di napoleone prefix sort
+ + piastrellature a 3-mini della scacchiera 2^k x 2^k
+ + pirellone
 
 Concetti e tecniche esperienziate:
-     monovarianti e invarianti
-     induzione/ricorsione
-     NP, coNP, P
-     buone congetture
-     lettura dello spartito musicale di una dimostrazione
-     
-``` 
+ + monovarianti e invarianti
+ + induzione/ricorsione
+ + NP, coNP, P
+ + buone congetture
+ + lettura dello spartito musicale di una dimostrazione

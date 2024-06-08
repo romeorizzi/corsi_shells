@@ -6,6 +6,4 @@ E, quando disponibile, la loro registrazione è nel folder:\
 #h(6mm) `https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=58ba7ced-73bd-4fd0-b01f-b12d0106957d`\
 ])
 
-== Incontro 2024-03-21
-
 Ancora sulla BFS, Alberi (definizioni di ciclo, foresta, albero, foglia), Lemma zero degli alberi, Albero dei cammini minimi come certificato di Si

@@ -6,6 +6,5 @@ E, quando disponibile, la loro registrazione è nel folder:\
 #h(6mm) `https://univr.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?folderID=58ba7ced-73bd-4fd0-b01f-b12d0106957d`\
 ])
 
-== Incontro 2024-03-27
 
 Lunghezza degli archi di un grafo, cammino minimo tra due nodi, Algoritmo Dijkstra. Congettura sull'ordinamento dei nodi di un grafo diretto in assenza di cicli diretti.

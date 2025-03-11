@@ -1,0 +1,13 @@
+previous meeting:
+    instances, problems, models, languages
+    examples: sum and difference, sum and product, systems of linear equations
+    the role of induction in discrete mathematics/informatics
+    P,NP,coNP, good conjectures and good characterizations
+    example: Pirellone
+    
+today:    
+   pure recursion, recursion with memoization, dynamic programming 
+   - the Pascal-Tartaglia triangle as a first example for the need of memoization or dynamic programming
+   - problem of dynamic programming:
+         given an array of integers, choose a max sum subset of the entries of the array subject to the constraint that this subset does not include three consecutive entries.
+         

@@ -1,0 +1,24 @@
+
+==== Associazione tra incontri ricorrenti di Zoom e folders in Didattica Moodle:
+
+Meeting ID	Folder Name
+85817283103	Fondamenti di algoritmi, complessita' e problem solving (2024/2025)
+87547655553	Ricerca operativa (2024/2025)
+89889727405	Discrete optimization and decision making (2024/2025)
+84160093560	TALight
+81482187359	problemi
+85668614976	clips
+84782924688	Riunioni Progetto
+
+
+=== lo shuttle: pagina etherpad accessibile via cloud per facilitare il deployment nelle varie aule:
+   https://etherpad.wikimedia.org/p/shuttle
+
+
+=== Throubleshooting aule
+
+aula M: funzionano audio e video (ma il video sarebbe bene che fosse focalizzato su lavagna, altrimenti non si legge)
+T.04: non funzionano (o non ho saputo impostare) nè video nè audio
+T.03: funzionano audio e video
+aula alpha: funzionano audio e video
+aula B: funziona il video ma non l'audio

@@ -4,19 +4,30 @@ per facilitare le operazioni di deployment, queste istruzioni sono accessibili i
 Sui PC Windows, nella PowerShell occorre lanciare il seguente comando per consentire l'esecuzione degli script:
 
    Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser                                                                 
-Poi, per clonare il repo corsi_shells dove appuntare quanto fatto a lezione:
+Nella home devi piazzare questi 3 files:
+-rw-r--r-- 1     config
+-rw-r--r-- 1     id_repo_corsi_shells
+-rw-r--r-- 1     id_repo_corsi_shells.pub
 
-   git clone git@github-repo-corsi-shells:romeorizzi/corsi_shells.git
+dove:
 
-Controlla sia presente il file necessario (id_rsa.pub) in ~/.ssh
-cui andrebbe aggiunto:
+1. il file   id_repo_corsi_shells.pub contiene la sola riga:
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIM84rRz7JnAb47uiBH6wNSV8UXPL1ybszoIJEK2Ity4Z ATENEO+rzzrmo30@2020-31362
 
-mi
+2. il contenuto del file con chiave privata (o il file stesso) ti conviene trasferirlo con Telegram, per eventuale convenienza lo ho disposto nella cartella padre di quella dove in locale tengo questo repo.  
+
+
+3. il file .ssh/config contiene queste 4 righe:
 Host github-repo-corsi-shells
 HostName github.com
 User git
 IdentityFile ~/.ssh/id_repo_corsi_shells
+--- FINE ---
+
+Poi potrai clonare il repo corsi_shells dove appuntare quanto fatto a lezione:
+
+   git clone git@github-repo-corsi-shells:romeorizzi/corsi_shells.git
+
 
 
 # seguono solo esempi storici di avvio automatizzato di applicativi per la didattica dalla PowerShell

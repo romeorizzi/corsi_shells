@@ -3,30 +3,60 @@ per facilitare le operazioni di deployment, queste istruzioni sono accessibili i
 
 Sui PC Windows, nella PowerShell occorre lanciare il seguente comando per consentire l'esecuzione degli script:
 
-   Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser                                                                 
-Nella home devi piazzare questi 3 files:
--rw-r--r-- 1     config
+   Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
+
+
+Nel folder .ssh devi piazzare questi 3 files:
 -rw-r--r-- 1     id_repo_corsi_shells
 -rw-r--r-- 1     id_repo_corsi_shells.pub
+-rw-r--r-- 1     config
+
+(il PC in aula alpha si lamenta se lasci accesso a group e others)
 
 dove:
 
 1. il file   id_repo_corsi_shells.pub contiene la sola riga:
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIM84rRz7JnAb47uiBH6wNSV8UXPL1ybszoIJEK2Ity4Z ATENEO+rzzrmo30@2020-31362
 
-2. il contenuto del file con chiave privata (o il file stesso) ti conviene trasferirlo con Telegram, per eventuale convenienza lo ho disposto nella cartella padre di quella dove in locale tengo questo repo.  
-
+2. il contenuto del file con chiave privata (o il file stesso) ti conviene trasferirlo con Telegram, in locale lo tengo nel mio folder .ssh per avercelo
 
 3. il file .ssh/config contiene queste 4 righe:
 Host github-repo-corsi-shells
-HostName github.com
-User git
-IdentityFile ~/.ssh/id_repo_corsi_shells
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_repo_corsi_shells
 --- FINE ---
 
 Poi potrai clonare il repo corsi_shells dove appuntare quanto fatto a lezione:
 
    git clone git@github-repo-corsi-shells:romeorizzi/corsi_shells.git
+
+
+# Esempio: come fatto con AlgoritmiUniVR a inizio 2025:
+    
+cat > config
+Host github-repo-corsi-shells
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_repo_corsi_shells
+Host github.com-AlgoritmiUniVR_without_passphrase
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_AlgoritmiUniVR
+--- FINE ---
+
+cat > /home/romeo/.ssh/id_AlgoritmiUniVR.pub
+ssh-rsa 
+... omissis
+
+cat > /home/romeo/.ssh/id_AlgoritmiUniVR
+-----BEGIN OPENSSH PRIVATE KEY-----
+... (segreto)
+-----END OPENSSH PRIVATE KEY-----
+
+Poi puoi clonare il repo corsi_shells dove appuntare quanto fatto a lezione:
+
+git clone git@github.com-AlgoritmiUniVR_without_passphrase:romeorizzi/AlgoritmiUniVR
 
 
 

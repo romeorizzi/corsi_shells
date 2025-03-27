@@ -5,29 +5,8 @@ import datetime
 
 """Improves your productivity. Manages your workflows and prevents getting lost into them.
 Turn your routinely start up actions into command_lists.
-A command_list is a python list with the following format (just an example):
-
-start_ro_class = [
-    ('google-chrome --new-window https://univr.zoom.us/j/87547655553','shell','y'),
-#    ('google-chrome https://aggie.io/LavagnaRO','shell','y'),
-    ('xournal &','shell','y'),
-    ('google-chrome https://rizzi.olinfo.it/ro','shell','y'),
-    ('google-chrome https://wbo.ophir.dev/boards/LavagnaRO','shell','y'),
-    ('google-chrome https://etherpad.wikimedia.org/p/RicercaOperativa','shell','y'),
-    (f'google-chrome https://etherpad.wikimedia.org/p/RicercaOperativa{str(datetime.date.today())}','shell','y'),
-    (f'google-chrome https://repl.it/@RomeoRizziUniVR/ro','shell','y'),
-#    ('google-chrome https://romeorizzi.vevox.com/#/meeting/295353/polls','shell','y'),
-    ('echo Zoom Room RO URL: https://univr.zoom.us/j/87547655553','shell','y'),
-#    ('echo Collaborative WhiteBoard(with layers) RO URL: https://aggie.io/LavagnaRO','shell','y'),
-    ('echo CMS RO URL: https://rizzi.olinfo.it/ro','shell','y'),
-    ('echo Collaborative WhiteBoard(easy) RO URL: https://wbo.ophir.dev/boards/LavagnaRO','shell','y'),
-    (f'echo Collaborative etherpad RO URL: https://etherpad.wikimedia.org/p/RicercaOperativa{str(datetime.date.today())}','shell','y'),
-    ('echo Etherpad RO index URL: https://etherpad.wikimedia.org/p/RicercaOperativa','shell','y'),
-    ('echo replit ro URL: https://repl.it/@RomeoRizziUniVR/ro','shell','y'),
-#    ('echo vevox pool my URL: https://romeorizzi.vevox.com/#/meeting/295353/polls','shell','y'),
-]
-
-As you see, each item of the list is a tuple whose first component is either a command-string or a python function (possibly user defined) and the second component (if present) specifies the executor/interpreter for that string. When the second component is not present then it is assumed that the first can be directly invoked by the python interpreter (when executing this module). 
+A command_list is a python list with the format as examplified by `start_ro_class` or `start_DODM_class` here below.
+Each item of the list is a tuple whose first component is either a command-string or a python function (possibly user defined) and the second component (if present) specifies the executor/interpreter for that string. When the second component is not present then it is assumed that the first can be directly invoked by the python interpreter (when executing this module). 
 The second component might be e more involved object whose format and interpretation is let free for you to customize. It is meant to instruct in the most flexible way on how the command in the first component should be dealt with.
 For convenince, the list might actually be one single command. 
 """
@@ -37,16 +16,12 @@ For convenince, the list might actually be one single command.
 start_ro_class = [
     (f'google-chrome --new-window https://etherpad.wikimedia.org/p/RicercaOperativa{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
     (f'google-chrome https://etherpad.wikimedia.org/p/RicercaOperativa{str(datetime.date.today())}','shell','y'),
-#    ('google-chrome https://aggie.io/LavagnaRO','shell','y'),
-#    ('xournal &','shell','y'),
+    ('xournal &','shell','y'),
     (f'google-chrome https://wbo.ophir.dev/boards/LavagnaRO{str(datetime.date.today())}_1','shell','y'),
-    ('google-chrome https://rizzi.olinfo.it/ro','shell','y'),
     ('google-chrome https://repl.it/@RomeoRizziUniVR/ro','shell','y'),
 #    ('google-chrome https://romeorizzi.vevox.com/#/meeting/295353/polls','shell','y'),
     ('google-chrome https://univr.zoom.us/j/87547655553','shell','y'),
     ('echo Zoom Room RO URL: https://univr.zoom.us/j/87547655553','shell','y'),
-#    ('echo Collaborative WhiteBoard(with layers) RO URL: https://aggie.io/LavagnaRO','shell','y'),
-    ('echo CMS RO URL: https://rizzi.olinfo.it/ro','shell','y'),
     (f'echo Collaborative WhiteBoard(easy) RO URL: https://wbo.ophir.dev/boards/LavagnaRO{str(datetime.date.today())}_1','shell','y'),
     (f'echo Etherpad RO index URL: https://etherpad.wikimedia.org/p/RicercaOperativa{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
     (f'echo Collaborative etherpad RO URL: https://etherpad.wikimedia.org/p/RicercaOperativa{str(datetime.date.today())}','shell','y'),
@@ -57,16 +32,12 @@ start_ro_class = [
 start_algo_class = [
     (f'google-chrome --new-window https://etherpad.wikimedia.org/p/Algoritmi{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
     (f'google-chrome https://etherpad.wikimedia.org/p/Algoritmi{str(datetime.date.today())}','shell','y'),
-#    ('google-chrome https://aggie.io/LavagnaALGO','shell','y'),
-#    ('xournal &','shell','y'),
+    ('xournal &','shell','y'),
     (f'google-chrome https://wbo.ophir.dev/boards/LavagnaALGO{str(datetime.date.today())}_1','shell','y'),
-    ('google-chrome https://rizzi.olinfo.it/algo','shell','y'),
     ('google-chrome https://repl.it/@RomeoRizziUniVR/algo','shell','y'),
 #    ('google-chrome https://romeorizzi.vevox.com/#/meeting/295336/polls','shell','y'),
-    ('google-chrome https://univr.zoom.us/j/85817283103','shell','y'),
-    ('echo Zoom Room ALGO URL: https://univr.zoom.us/j/85817283103','shell','y'),
-#    ('echo Collaborative WhiteBoard(with layers) ALGO URL: https://aggie.io/LavagnaALGO','shell','y'),
-    ('echo CMS RO URL: https://rizzi.olinfo.it/algo','shell','y'),
+    ('google-chrome https://univr.zoom.us/j/94457731757','shell','y'),
+    ('echo Zoom Room ALGO URL: https://univr.zoom.us/j/94457731757','shell','y'),
     (f'echo Collaborative WhiteBoard(easy) ALGO URL: https://wbo.ophir.dev/boards/LavagnaALGO{str(datetime.date.today())}_1','shell','y'),
     (f'echo Etherpad ALGO index URL: https://etherpad.wikimedia.org/p/Algoritmi{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
     (f'echo Collaborative etherpad ALGO URL: https://etherpad.wikimedia.org/p/Algoritmi{str(datetime.date.today())}','shell','y'),
@@ -77,16 +48,14 @@ start_algo_class = [
 start_DODM_class = [
     (f'google-chrome --new-window https://etherpad.wikimedia.org/p/DiscreteOptimization{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
     (f'google-chrome https://etherpad.wikimedia.org/p/DiscreteOptimization{str(datetime.date.today())}','shell','y'),
-#    ('google-chrome https://aggie.io/LavagnaDODM','shell','y'),
     (f'google-chrome https://wbo.ophir.dev/boards/LavagnaDODM{str(datetime.date.today())}_1','shell','y'),
-#    ('xournal &','shell','y'),
+    ('xournal &','shell','y'),
 #    ('google-chrome https://romeorizzi.vevox.com/#/meeting/295336/polls','shell','y'),
     ('google-chrome https://univr.zoom.us/j/89889727405','shell','y'),
     ('echo Zoom Room DODM URL: https://univr.zoom.us/j/89889727405','shell','y'),
-#    ('echo Collaborative WhiteBoard(with layers) ALGO URL: https://aggie.io/LavagnaALGO','shell','y'),
     (f'echo Collaborative WhiteBoard(easy) DODM URL: https://wbo.ophir.dev/boards/LavagnaDODM{str(datetime.date.today())}_1','shell','y'),
-    (f'echo Etherpad ALGO index URL: https://etherpad.wikimedia.org/p/DiscreteOptimization{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
-    (f'echo Collaborative etherpad ALGO URL: https://etherpad.wikimedia.org/p/DiscreteOptimization{str(datetime.date.today())}','shell','y'),
+    (f'echo Etherpad DODO index URL: https://etherpad.wikimedia.org/p/DiscreteOptimization{str(datetime.date.today())[:4]}_indice_incontri','shell','y'),
+    (f'echo Collaborative etherpad DODO URL: https://etherpad.wikimedia.org/p/DiscreteOptimization{str(datetime.date.today())}','shell','y'),
 #    ('echo vevox pool my URL: https://romeorizzi.vevox.com/#/meeting/295336/polls','shell','y'),
 ]
 
@@ -119,12 +88,10 @@ start_project_definition = [
 start_Volterra_stanza_base = [
     ('echo Zoom Stanza Base Password: 683812','shell'),
     ('google-chrome --new-window https://zoom.us/j/96559533066','shell','y'),
-#    ('google-chrome https://aggie.io/LavagnaVolterra','shell','y'),
     (f'google-chrome https://etherpad.wikimedia.org/p/Volterra_stanza_base_{str(datetime.date.today())}','shell','y'),
     ('google-chrome https://replit.com/@RomeoRizziUniVR/Volterrastanzabase','shell','y'),
     ('echo Zoom Stanza Base URL: https://zoom.us/j/96559533066','shell','y'),
     ('echo Zoom Stanza Base Password: 683812','shell','y'),
-#    ('echo Lavagna URL: https://aggie.io/LavagnaVolterra','shell','y'),
     (f'echo etherpad URL: https://etherpad.wikimedia.org/p/Volterra_stanza_base_$({str(datetime.date.today())}','shell','y'),
     ('echo repl Public URL: https://replit.com/join/yieqdonp-romeorizziunivr','shell','y'),
 ]
@@ -138,7 +105,7 @@ start_meeting = [
 ]
 
 start_TAL_meeting = [
-    ('google-chrome --new-window https://univr.zoom.us/j/84160093560','shell'),
+    ('google-chrome --new-window https://univr.zoom.us/j/96977957561','shell'),
     ('xournal &','shell','y'),
     ('google-chrome https://etherpad.wikimedia.org/p/TAL_meeting','shell'),
 #    ('google-chrome https://aggie.io/TAL_meeting','shell'),
@@ -192,7 +159,7 @@ add_voice2menu("launch zoom personal room", commands_list=('google-chrome https:
 
 add_voice2menu("launch a meeting in Romeo's personal Zoom room", commands_list=start_meeting, hot_key=("meet",))		  
 
-add_voice2menu("launch TALight meeting", commands_list=start_TAL_meeting, hot_key=("tal-project",))		  
+add_voice2menu("launch TALight meeting", commands_list=start_TAL_meeting, hot_key=("TAL",))		  
 
 add_voice2menu("launch problem recording session", commands_list=start_problem_recording, hot_key=("problem",))
 
@@ -215,8 +182,6 @@ add_voice2menu("start Volterra base group class", commands_list=start_Volterra_s
 add_voice2menu("start Markdown editing/view", commands_list=[('google-chrome https://codebeautify.org/markdown-editor','shell')], hot_key=("markdown",))		  
 
 add_voice2menu("start Yaml editing/view", commands_list=[('google-chrome https://codebeautify.org/yaml-editor-online','shell')], hot_key=("yaml",))		  
-
-add_voice2menu("start TAL working session", commands_list=[('rtald -d ~/TAlight/problems','shell')], hot_key=("TAL",))		  
 
 add_voice2menu("start collaborative board (wbo, easy one)", commands_list=(f'google-chrome --new-window https://wbo.ophir.dev/boards/incontro{str(datetime.date.today())}','shell'), hot_key=("wbo",))		  
 add_voice2menu("start collaborative board (aggie, less immidiate than wbo)", commands_list=(f'google-chrome --new-window https://aggie.io/incontro{str(datetime.date.today())}','shell'), hot_key=("aggie",))
@@ -248,6 +213,10 @@ add_voice2menu("My Favorite Institutional Pages", ('google-chrome ~/getby/Favori
 add_voice2menu("My Favorite Pages", ('google-chrome ~/getby/Favorites/MyFavoritePages.md','shell'))
 
 add_voice2menu("My Favorite Servers")
+add_voice2menu("ssh profs (rzzrmo30@profs.sci.univr.it) - attiva la VPN come rzzrmo30", ('ssh rzzrmo30@profs.sci.univr.it','shell'))
+add_voice2menu("ssh pisa", ('ssh pisa','shell'))
+add_voice2menu("ssh tal untunneled (tal@157.27.26.174) - attiva la VPN come rzzrmo30", ('ssh tal@157.27.26.174','shell'))
+add_voice2menu("ssh tal tunneled via Pisa (tal)", ('ssh tal','shell'))
 
 
 ### END: my current standard menu system
